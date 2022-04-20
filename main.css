@@ -1,0 +1,55 @@
+h1 {
+    color: magenta;
+    font-family: helvetica;
+    text-align: center;
+}
+
+#kacheln {
+
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+body {
+
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.tuerchen {
+
+    float: left;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    cursor: pointer;
+
+    /* CSS 3 Animation */
+    transition: box-shadow 1s ease;
+}
+
+.tuerchen:hover {
+
+    box-shadow: 10px 10px 5px rgba(245, 42, 201, 0.75);
+}
+
+.tuerchen img {
+
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.number {
+
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 85px;
+    font-family: helvetica;
+    color: #555;
+}
